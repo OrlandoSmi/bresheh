@@ -1,0 +1,153 @@
+* {
+  color: white;
+}
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+}
+.logo {
+}
+.text {
+  font-size: 15px;
+  color: white;
+  padding-right: 41px;
+  padding-left: 41px;
+}
+.icon {
+  float: right;
+}
+.fb {
+  float: right;
+  margin-left: 20px;
+}
+.mainheadings {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+.headings {
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.smallheadings {
+  font-size: 15;
+  font-weight: normal;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+.col {
+  border: 0px solid red !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.fbdiv {
+  border: 0px solid blue;
+}
+.instadiv {
+  border: 0px solid pink;
+  padding-left: 10px;
+}
+@media screen and (max-width: 575px) {
+  .mainheadings {
+    text-align: center;
+  }
+  .headings {
+    text-align: center;
+  }
+  .smallheadings {
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fbdiv {
+    width: 49%;
+    float: left;
+  }
+  .instadiv {
+    width: 49%;
+    float: right;
+    padding: 0px;
+  }
+  .icon {
+    float: right;
+  }
+  .fb {
+    float: left;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 576px) {
+  .mainheadings {
+    text-align: center;
+  }
+  .headings {
+    text-align: center;
+  }
+  .smallheadings {
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fbdiv {
+    width: 49%;
+    float: left;
+  }
+  .instadiv {
+    width: 49%;
+    float: right;
+    padding: 0px;
+  }
+  .icon {
+    float: right;
+  }
+  .fb {
+    float: left;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mainheadings {
+    text-align: left;
+  }
+  .headings {
+    text-align: left;
+  }
+  .smallheadings {
+    text-align: left;
+  }
+  .text {
+    text-align: left;
+  }
+  .logo {
+    display: inherit;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .icon {
+    float: right;
+    margin: 0;
+  }
+  .fb {
+    float: none;
+    margin: 0;
+  }
+  .instadiv {
+    padding-left: 10px;
+  }
+}

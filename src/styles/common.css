@@ -1,0 +1,15 @@
+Button {
+  border-radius: 50px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  color: black;
+}
+body {
+  overflow-x: hidden;
+}

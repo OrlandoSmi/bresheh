@@ -1,0 +1,11 @@
+.navbar {
+  position: absolute;
+  background-color: transparent;
+  z-index: -1;
+}
+
+/*.roundbtn {
+  border-radius: 50px !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}*/
