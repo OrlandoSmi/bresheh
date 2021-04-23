@@ -17,7 +17,7 @@ const IndexPage = () =>{
             leather made to offer stylish protection as everyday wear for everyone.
             </p>
             <Button className={indexStyles.buttonwidth} variant="outline-light">
-              <Image className={indexStyles.btnimg} src="../assets/play-btn.png" />
+              <Image className={indexStyles.btnimg} src="https://bresheh.s3.amazonaws.com/assets/play-btn.png" />
               Watch Video</Button><span className={indexStyles.btnseperator}></span>
             <Button className={indexStyles.buttonwidth}  variant="light">Order Now</Button>
           </Col>
@@ -39,21 +39,21 @@ const IndexPage = () =>{
      
       <div className={indexStyles.row}>
         <div className={indexStyles.column}>
-          <Image className={indexStyles.columnImg} src="../assets/DSC_6577-1.png" />
-          <Image className={indexStyles.columnImg} src="../assets/DSC_6577-4.png" />
+          <Image className={indexStyles.columnImg} src="https://bresheh.s3.amazonaws.com/assets/DSC_6577-1.png" />
+          <Image className={indexStyles.columnImg} src="https://bresheh.s3.amazonaws.com/assets/DSC_6577-4.png" />
         </div>
         <div  className={indexStyles.column}>
-          <Image className={indexStyles.columnImg} src="../assets/DSC_6554.png" />
-          <Image className={indexStyles.columnImg} src="../assets/DSC_6455.png" />
+          <Image className={indexStyles.columnImg} src="https://bresheh.s3.amazonaws.com/assets/DSC_6554.png" />
+          <Image className={indexStyles.columnImg} src="https://bresheh.s3.amazonaws.com/assets/DSC_6455.png" />
         
         </div>
         <div  className={indexStyles.column}>
-          <Image className={indexStyles.columnImg} src="../assets/DSC_6577-4.png"/>
-          <Image className={indexStyles.columnImg} src="../assets/DSC_6613.png"/>
+          <Image className={indexStyles.columnImg} src="https://bresheh.s3.amazonaws.com/assets/DSC_6577-4.png"/>
+          <Image className={indexStyles.columnImg} src="https://bresheh.s3.amazonaws.com/assets/DSC_6613.png"/>
         </div>
         <div  className={indexStyles.column}>
-          <Image className={indexStyles.columnImg} src="../assets/DSC_6847.png"/>
-          <Image className={indexStyles.columnImg} src="../assets/DSC_6360.png"/>
+          <Image className={indexStyles.columnImg} src="https://bresheh.s3.amazonaws.com/assets/DSC_6847.png"/>
+          <Image className={indexStyles.columnImg} src="https://bresheh.s3.amazonaws.com/assets/DSC_6360.png"/>
         </div>
         
       </div>
@@ -61,7 +61,7 @@ const IndexPage = () =>{
       <Container fluid className={indexStyles.thirdcontainer}>
         <Row className={indexStyles.trrow}>
           <Col className={indexStyles.col} lg={6} md={6} xs={12}>
-           <Image  className={indexStyles.thirssecimg}  src="../assets/DSC_6577.png"/>
+           <Image  className={indexStyles.thirssecimg}  src="https://bresheh.s3.amazonaws.com/assets/DSC_6577.png"/>
           </Col>
           <Col  lg={6} md={6} xs={12}>
          
@@ -103,7 +103,7 @@ const IndexPage = () =>{
 
           </Col>
           <Col className={indexStyles.col} lg={6} md={6} xs={12}>
-           <Image  className={indexStyles.thirssecimg2}  src="../assets/DSC_66131.png"/>
+           <Image  className={indexStyles.thirssecimg2}  src="https://bresheh.s3.amazonaws.com/assets/DSC_66131.png"/>
           </Col>
           
         </Row>
@@ -113,7 +113,7 @@ const IndexPage = () =>{
           <h2>Stay Protected <br/>No Matter the Colour</h2>
           <Row>
             <Col  lg={4} md={4} xs={12}>
-              <Image className={indexStyles.thirssecimg2}  src="../assets/DSC_6554-2.png"/>
+              <Image className={indexStyles.thirssecimg2}  src="https://bresheh.s3.amazonaws.com/assets/DSC_6554-2.png"/>
               <div className={indexStyles.productheading}>Roast Mask</div>
               <div className={indexStyles.productsize}>Vegan Leather XL</div>
               <div className={indexStyles.productprice}>$4,829.00</div>
@@ -154,7 +154,7 @@ const IndexPage = () =>{
             </Col>
             
             <Col lg={4} md={4} xs={12}>
-              <Image className={indexStyles.thirssecimg}  src="../assets/DSC_66131.png"/>
+              <Image className={indexStyles.thirssecimg}  src="https://bresheh.s3.amazonaws.com/assets/DSC_66131.png"/>
               <div className={indexStyles.productheading}>Roast Mask</div>
               <div className={indexStyles.productsize}>Vegan Leather XL</div>
               <div className={indexStyles.productprice}>$4,829.00</div>
@@ -195,7 +195,7 @@ const IndexPage = () =>{
             </Col>
 
             <Col lg={4} md={4} xs={12}>
-              <Image className={indexStyles.thirssecimg}  src="../assets/DSC_6554-3.png"/>
+              <Image className={indexStyles.thirssecimg}  src="https://bresheh.s3.amazonaws.com/assets/DSC_6554-3.png"/>
               <div className={indexStyles.productheading}>Roast Mask</div>
               <div className={indexStyles.productsize}>Vegan Leather XL</div>
               <div className={indexStyles.productprice}>$4,829.00</div>
