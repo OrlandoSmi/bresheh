@@ -103,14 +103,36 @@ const IndexPage = () =>{
 
           </Col>
           <Col className={indexStyles.col} lg={6} md={6} xs={12}>
-           <Image  className={indexStyles.thirssecimg2}  src="https://bresheh.s3.amazonaws.com/assets/DSC_66131.png"/>
+           <Image className={indexStyles.thirssecimg2}  src="https://bresheh.s3.amazonaws.com/assets/DSC_66131.png"/>
           </Col>
           
         </Row>
       </Container>
+
+
+      <Container fluid className={indexStyles.thirdcontainer}>
+      
+        <Row className={indexStyles.padding_row}>
+          <Col className={indexStyles.col} lg={4} md={12}>
+            <Image className={indexStyles.thirssecimg4}  src="https://bresheh.s3.amazonaws.com/assets/Image+17.png"/>  
+          </Col>
+          <Col className={indexStyles.extrapadding} lg={4} md={12}>
+        
+          <h2>Personalization Inclusive</h2>
+          <p className={indexStyles.headingcentre}>Buying Bresheh always means luxury included. Our gender-neutral designs are suitable for everyday wear no matter the occasion. Each mask purchased comes with the option to add a name or initials. Get a personal 
+          touch for yourself or give an exquisite gift. Additional options such as custom colours are available on demand.</p>
+          </Col>
+          <Col className={indexStyles.bottomcol} lg={4} md={12}>
+          <Image className={indexStyles.thirssecimg3}  src="https://bresheh.s3.amazonaws.com/assets/Image+16.png"/>
+          </Col>
+        </Row>
+   
+      </Container>
+
+
       <Container fluid className={indexStyles.thirdcontainer}>
         <Container >
-          <h2>Stay Protected <br/>No Matter the Colour</h2>
+          <h2 className={indexStyles.largeheading}>Stay Protected <br/>No Matter the Colour</h2>
           <Row>
             <Col  lg={4} md={4} xs={12}>
               <Image className={indexStyles.thirssecimg2}  src="https://bresheh.s3.amazonaws.com/assets/DSC_6554-2.png"/>

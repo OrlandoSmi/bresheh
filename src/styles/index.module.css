@@ -28,6 +28,14 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.padding_row {
+  padding-top: 30px;
+  /*border: 5px solid green;*/
+}
+.bottomcol {
+  height: 800px !important;
+  /*border: 1px solid pink;*/
+}
 .col {
   color: white;
   text-align: left;
@@ -63,6 +71,9 @@ p {
 .headingp {
   color: black;
   text-align: left;
+}
+.largeheading {
+  font-size: 60px;
 }
 .headingcentre {
   color: black;
@@ -164,6 +175,32 @@ p {
   padding: 0;
   margin: 0px;
 }
+.thirssecimg3 {
+  margin-top: 0px;
+  vertical-align: bottom;
+  width: 90%;
+  padding: 0;
+  margin: 0px;
+  bottom: 0px !important;
+  /*border: 2px dotted brown;*/
+  position: absolute;
+  right: 0;
+}
+.thirssecimg4 {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 0;
+  margin: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.extrapadding {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 40px;
+}
 .btnblack {
   background-color: #313131;
   border: 1px solid #313131;
@@ -232,6 +269,26 @@ p {
   .trrow {
     padding: 20px;
   }
+  .thirssecimg3 {
+    width: 60%;
+    position: relative;
+    float: right;
+  }
+  .thirssecimg4 {
+    width: 60%;
+    position: relative;
+  }
+  .bottomcol {
+    height: auto !important;
+    /*border: 1px solid pink;*/
+  }
+  .headingcentre {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .extrapadding {
+    padding-top: 0px;
+  }
 }
 @media screen and (min-width: 576px) {
   body {
@@ -256,6 +313,26 @@ p {
   }
   .trrow2 {
     flex-direction: column-reverse;
+  }
+  .thirssecimg3 {
+    width: 60%;
+    position: relative;
+    float: right;
+  }
+  .thirssecimg4 {
+    width: 60%;
+    position: relative;
+  }
+  .bottomcol {
+    height: auto !important;
+    /*border: 1px solid pink;*/
+  }
+  .headingcentre {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .extrapadding {
+    padding-top: 0px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -282,6 +359,48 @@ p {
     padding: 0px;
     flex-direction: inherit;
   }
+  .thirssecimg3 {
+    width: 60%;
+    position: relative;
+    float: right;
+  }
+  .thirssecimg4 {
+    width: 60%;
+    position: relative;
+  }
+  .bottomcol {
+    height: auto !important;
+    /*border: 1px solid pink;*/
+  }
+  .thirssecimg3 {
+    margin-top: 0px;
+    vertical-align: bottom;
+    width: 90%;
+    padding: 0;
+    margin: 0px;
+    bottom: 0px !important;
+    /*border: 2px dotted brown;*/
+    position: absolute;
+    right: 0;
+  }
+  .thirssecimg4 {
+    margin-top: 0px;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .bottomcol {
+    height: 800px !important;
+    /*border: 1px solid pink;*/
+  }
+  .headingcentre {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -296,5 +415,34 @@ p {
   .trrow2 {
     padding: 0px;
     flex-direction: inherit;
+  }
+  .thirssecimg3 {
+    margin-top: 0px;
+    vertical-align: bottom;
+    width: 90%;
+    padding: 0;
+    margin: 0px;
+    bottom: 0px !important;
+    /*border: 2px dotted brown;*/
+    position: absolute;
+    right: 0;
+  }
+  .thirssecimg4 {
+    margin-top: 0px;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .bottomcol {
+    height: 800px !important;
+    /*border: 1px solid pink;*/
+  }
+  .headingcentre {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
