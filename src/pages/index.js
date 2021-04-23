@@ -113,7 +113,7 @@ const IndexPage = () =>{
       <Container fluid className={indexStyles.thirdcontainer}>
       
         <Row className={indexStyles.padding_row}>
-          <Col className={indexStyles.col} lg={4} md={12}>
+          <Col  lg={4} md={12}>
             <Image className={indexStyles.thirssecimg4}  src="https://bresheh.s3.amazonaws.com/assets/Image+17.png"/>  
           </Col>
           <Col className={indexStyles.extrapadding} lg={4} md={12}>
